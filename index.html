@@ -1,1 +1,19 @@
-const url="https://suno.com/s/sdVvGjOJbNKYVjPq";
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>노래로 이동 중...</title>
+</head>
+<body>
+    <p>노래 페이지로 이동 중입니다...</p>
+    <a id="link">이동하지 않으면 여기를 클릭하세요.</a>
+
+    <script>
+        const url = "https://suno.com/s/https://suno.com/s/sdVvGjOJbNKYVjPq";
+
+        document.getElementById("link").href = url;
+        window.location.replace(url);
+    </script>
+</body>
+</html>
